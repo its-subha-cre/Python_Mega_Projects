@@ -1,0 +1,30 @@
+import turtle
+def func():
+    turtle.hideturtle()
+    turtle.up()
+    turtle.goto(-100,-400)
+    turtle.down()
+    turtle.left(90)
+    turtle.forward(650)
+
+    turtle.right(90)
+    turtle.forward(300)
+    turtle.right(90)
+    turtle.forward(250)
+    turtle.right(90)
+    turtle.forward(300)
+    turtle.color("red")
+    turtle.begin_fill()
+    turtle.up()
+    turtle.goto(50,200)
+    turtle.down()
+    turtle.circle(75)
+    turtle.end_fill()
+    turtle.up()
+    turtle.goto(100,-100)
+    turtle.down()
+    turtle.write("Japan",font=("Arial Black",21,"normal"))
+
+
+    turtle.done()
+func()
